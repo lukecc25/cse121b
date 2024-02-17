@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 121b | W05: Programming Tasks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  
+  <body>
+    <nav>
+      <ul id="menu">
+        <li><a id="toggleMenu">&equiv;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="w01-task.html">W1 Task</a></li>
+        <li><a href="w03-task.html">W3 Task</a></li>
+        <li><a href="w04-task.html">W4 Task</a></li>
+        <li><a href="w05-task.html" class="active">W5 Task</a></li>
+        <li><a href="project.html">Project</a></li>
+      </ul>
+    </nav>
+    <header id="project">
+        <h1>W06: Final Project</h1>
+    </header>
+    <div class="container">
+        <h1>WeatherSeeker</h1>
+        <article>
+          <h3>Weather Information</h3>
+          <div id="search">
+            <label for="locationInput">Location:</label>
+            <input type="text" id="locationInput" name="locationInput" placeholder="Enter location (city name)">
+          </div>
+          <div>
+            <button id="getForecastButton">Get Forecast</button>
+          </div>
+          <div id="weatherInfo">
+            <div class="weather-box">
+              <h4>Temperature:</h4>
+              <input type="text" id="temperature" name="temperature" disabled>
+            </div>
+            <div class="weather-box">
+              <h4>Weather:</h4>
+              <input type="text" id="weatherCondition" name="weatherCondition" disabled>
+            </div>
+            <div class="weather-box">
+              <h4>Humidity:</h4>
+              <input type="text" id="humidity" name="humidity" disabled>
+            </div>
+            <div class="weather-box">
+              <h4>Wind Speed:</h4>
+              <input type="text" id="windSpeed" name="windSpeed" disabled>
+            </div>
+          </div>
+        </article>
+    </div>
+    <script src="scripts/project.js"></script>
+</body>
+</html>
+

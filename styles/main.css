@@ -279,6 +279,68 @@ footer {
     margin: .5rem;
 }
 
+/* Weather Forecast Styles */
+#project{
+    background-color: rgb(249, 245, 147);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: aliceblue;
+}
+
+.container h1 {
+    margin-bottom: 20px; 
+}
+
+article {
+    width: 80%; 
+    max-width: 600px; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 50px; 
+    background-color: #aeaeae;
+}
+article h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+#search{
+    text-align: center;
+}
+#getForecastButton {
+    margin-right: 235px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: azure;
+    
+  }
+  #getForecastButton:hover {
+    background-color: aqua;  
+    
+  }
+.weather-box {
+    text-align: center;
+    margin-bottom: 15px; 
+}
+
+.weather-box h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.weather-box p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
